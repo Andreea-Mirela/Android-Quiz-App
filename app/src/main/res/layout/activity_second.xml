@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background2"
+    tools:context=".SecondActivity">
+
+    <LinearLayout
+        android:id="@+id/stanciu_andreea_second_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="0dp"
+        android:gravity="center">
+
+    <TextView
+        android:id="@+id/stanciu_andreea_second_tv_citat"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="@string/nu_ti_irosi_viata_lucrand_pentru_bani_pune_banii_sa_lucreze_pentru_tine"
+        android:textAlignment="center"
+        android:textColor="@color/light_green"
+        android:textSize="30sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="20dp"
+         />
+
+    <TextView
+        android:id="@+id/stanciu_andreea_second_tv_afla"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:fontFamily="sans-serif-black"
+        android:text="@string/afla_cat_de_priceput_esti"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+
+        app:layout_constraintTop_toBottomOf="@id/stanciu_andreea_second_tv_citat"
+        android:layout_marginTop="70dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        android:gravity="center_horizontal"
+         />
+
+    <LinearLayout
+        android:id="@+id/stanciu_andreea_second_ll2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+    <Button
+        android:id="@+id/stanciu_andreea_second_b_incepator"
+        android:layout_width="192dp"
+        android:layout_height="200dp"
+
+        android:background="@drawable/custom_button_category"
+        android:fontFamily="casual"
+        android:text="@string/incepator"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0"
+         />
+
+    <Button
+        android:id="@+id/stanciu_andreea_second_b_avansat"
+        android:layout_width="192dp"
+        android:layout_height="200dp"
+
+        android:background="@drawable/custom_button_category"
+        android:fontFamily="casual"
+        android:text="@string/experimentat"
+        android:textColor="@color/light_green"
+        android:textSize="20sp"
+
+        app:layout_constraintTop_toTopOf="parent"
+
+        app:layout_constraintStart_toEndOf="@id/stanciu_andreea_second_b_incepator"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        app:layout_constraintHorizontal_bias="0.0" />
+
+    </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

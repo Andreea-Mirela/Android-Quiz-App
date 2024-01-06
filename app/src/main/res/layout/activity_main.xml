@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/stanciu_andreea_main_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+
+    <ImageView
+        android:id="@+id/stanciu_andreea_main_iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+
+        android:src="@drawable/pngwave"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="70dp"
+         />
+
+    <TextView
+        android:id="@+id/stanciu_andreea_main_tv_citat"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="cursive"
+        android:text="@string/banii_nu_sunt_singurul_raspuns_dar_fac_diferenta"
+        android:textAlignment="center"
+        android:textColor="@color/light_green"
+        android:textSize="30sp"
+
+        app:layout_constraintTop_toBottomOf="@id/stanciu_andreea_main_iv_logo"
+        android:layout_marginTop="60dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginLeft="25dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginRight="25dp"
+
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/stanciu_andreea_main_tv_autor"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/barak_obama"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:fontFamily="cursive"
+
+        app:layout_constraintTop_toBottomOf="@id/stanciu_andreea_main_tv_citat"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/stanciu_andreea_main_tv_denumire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/jocul_banilor"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginTop="40dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+    <Button
+        android:id="@+id/stanciu_andreea_main_b_incepe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/incepe"
+        android:fontFamily="casual"
+        android:textColor="@color/light_green"
+        android:textSize="15sp"
+
+        app:layout_constraintTop_toBottomOf="@id/stanciu_andreea_main_tv_denumire"
+        android:layout_marginTop="5dp"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
+        android:background="@drawable/custom_button"
+        />
+
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>

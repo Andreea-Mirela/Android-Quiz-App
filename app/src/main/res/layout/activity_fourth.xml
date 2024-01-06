@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FourthActivity">
+
+    <LinearLayout
+        android:id="@+id/stanciu_andreea_fourth_ll1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="40dp"
+        >
+
+        <TextView
+            android:id="@+id/stanciu_andreea_fourth_tv_rezultat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="@string/rezultat"
+            android:textColor="@color/light_green"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+
+        <ImageView
+            android:id="@+id/stanciu_andreea_fourth_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/trophy5"
+            />
+
+        <TextView
+            android:id="@+id/stanciu_andreea_fourth_tv_felicitari"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/felicitari"
+            android:textColor="@color/green"
+            android:textSize="25sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/stanciu_andreea_fourth_tv_scor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/green"
+            android:textSize="25sp"/>
+
+        <Button
+            android:id="@+id/stanciu_andreea_fourth_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/custom_button"
+            android:textColor="@color/light_green"
+            android:text="@string/revino_in_meniul_principal"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
